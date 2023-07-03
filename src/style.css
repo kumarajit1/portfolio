@@ -270,7 +270,7 @@ header .navbar a:hover{
 }
 
 .about .row-2 .skills .progress:nth-child(3) .bar span{
-    width:90%;
+    width:85%;
 }
 
 .about .row-2 .skills .progress:nth-child(4) .bar span{
@@ -286,17 +286,14 @@ header .navbar a:hover{
 }
 
 .about .row-2 .skills .progress:nth-child(7) .bar span{
-    width:80%;
+    width:75%;
 }
 
 .about .row-2 .skills .progress:nth-child(8) .bar span{
     width:90%;
 }
 .about .row-2 .skills .progress:nth-child(9) .bar span{
-    width:90%;
-}
-.about .row-2 .skills .progress:nth-child(10) .bar span{
-    width:90%;
+    width:85%;
 }
 
 .experience .box-container .box{
