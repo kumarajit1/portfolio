@@ -2,7 +2,6 @@ function sendMail() {
     var params = {
       name: document.getElementById("name").value,
       email: document.getElementById("email").value,
-      Number: document.getElementById("contact").value,
       message: document.getElementById("msg").value,
     };
   
@@ -14,7 +13,6 @@ function sendMail() {
       .then((res) => {
         document.getElementById("name").value = "";
         document.getElementById("email").value = "";
-        document.getElementById("contact").value = "";
         document.getElementById("msg").value = "";
         console.log(res);
         alert("Your message is send successfully.");
